@@ -149,7 +149,7 @@ background: #2e2f42;
     display: block; 
     min-width: 169px;
      height: 56px;
-     bottom: none;
+    border: none;
 
 }
 
@@ -159,8 +159,6 @@ background: #2e2f42;
 }
 
 .features{
-width: 1128px;
-height: 104px;
 padding: 120px 0 120px;
 }
 
@@ -179,14 +177,13 @@ padding: 120px 0 120px;
 .features-list {
     display: flex;
     gap: 24px;
-    width: 264px;
-        height: 104px;
+    
 }
 
 .features-item {
     width: calc((100% - 72px) /4);
-   
 }
+
 
 .features-subtitle {
     font-weight: 500;
@@ -210,7 +207,7 @@ padding: 120px 0 120px;
 
 .our-team{  
     padding: 120px 0;
-    
+    background: #f4f4fd;
 }
 
 .our-team-subtitle{
