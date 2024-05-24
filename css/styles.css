@@ -119,8 +119,8 @@ margin-right: auto;
     color: #404bbf;
 }
 .hero{
-padding: 188px 0px;
 background: #2e2f42;
+
 }
 
 .hero-title{
@@ -133,7 +133,7 @@ background: #2e2f42;
         margin-left: auto;
         margin-right: auto;
         max-width: 496px;
-        padding: 188px 0 0 0;
+        margin-bottom: 48px;
 }
 .hero-button{
     font-family: "Roboto", sans-serif;
@@ -182,6 +182,7 @@ padding: 120px 0 120px;
 
 .features-item {
     width: calc((100% - 72px) /4);
+    background: #fff;
 }
 
 
@@ -239,7 +240,6 @@ img {
 }
 .team-image {
 margin: 0 auto;
-margin-bottom: 32px;
 }
 
 .team-subtitle {
@@ -287,7 +287,7 @@ margin: 0 auto;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
+    
 }
 .portfolio-subtitle {
         margin-bottom: 8px;
@@ -305,11 +305,11 @@ margin: 0 auto;
 .footer {
         padding-top: 100px;
         padding-bottom: 100px;
+        background: #2e2f42;
 }
 
 .footer-container{
-background: #2e2f42;
-    padding: 100px 0px;
+
 }
 
 .footer-logo {
@@ -334,5 +334,6 @@ font-weight: 700;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        max-width: 264px;
 
 }
