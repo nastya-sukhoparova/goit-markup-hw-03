@@ -178,6 +178,7 @@ padding: 120px 0 120px;
 .features-list {
     display: flex;
     gap: 24px;
+   
     
 }
 
@@ -225,11 +226,14 @@ padding: 120px 0 120px;
 .team-list {
 display: flex;
 gap: 24px;
+background: #fff;
+
 }
 
 .team-item {
      border-radius: 0 0 4px 4px;
     flex-basis: calc((100% - 72px) / 4);
+    
        
 }
 
@@ -241,6 +245,7 @@ img {
 }
 .team-image {
 margin: 0 auto;
+
 }
 
 .team-subtitle {
